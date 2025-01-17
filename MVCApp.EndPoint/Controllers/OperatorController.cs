@@ -63,9 +63,11 @@ public class OperatorController : Controller
     {
         if (OnlineOperator.Online == null)
         {
+          
             return RedirectToAction("Login", "Operator");
         }
-        return View();
+        var Exams = _techExamAppService.GetAllExams();
+        return View(Exams);
     }
 
     [HttpPost]
