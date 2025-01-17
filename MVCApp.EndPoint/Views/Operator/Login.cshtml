@@ -1,0 +1,33 @@
+﻿<div class="container px-5 my-5">
+    <form method="post" asp-action="Login" id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="form-floating mb-3">
+            <input class="form-control" id="userName" name="userName" type="text" placeholder="UserName" data-sb-validations="required" />
+            <label for="userName">UserName</label>
+            <div class="invalid-feedback" data-sb-feedback="userName:required">UserName is required.</div>
+        </div>
+        <div class="form-floating mb-3">
+            <input class="form-control" id="password" name="Pass" type="text" placeholder="Password" data-sb-validations="required" />
+            <label for="password">Password</label>
+            <div class="invalid-feedback" data-sb-feedback="password:required">Password is required.</div>
+        </div>
+        
+        <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Login</button>
+        </div>
+    </form>
+</div>
+<div class="container px-5 my-5">
+    <form form method="post" asp-action="Logout" id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="d-grid">
+            <button class="btn btn-danger btn-lg" id="submitButton" type="submit">LogOut</button>
+        </div>
+    </form>
+
+</div>
+@if(ViewBag.LogInErrorr is not null){
+    <div class="alert alert-danger">@ViewBag.LogInErrorr</div>
+}
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
