@@ -65,11 +65,11 @@ public class TechExamService : ITechExamService
 
         bool EvenDay = exam.TechExamDate.Day % 2 == 0;
 
-        if (EvenDay && exam.CompanyName != CompanyEnum.Irankhodro)
+        if (EvenDay && exam.CompanyName == CompanyEnum.Irankhodro)
         {
             return new Result(false, "Only IranKhodro vehicles can register on even days.");
         }
-        else if (!EvenDay && exam.CompanyName != CompanyEnum.Saipa)
+        else if (!EvenDay && exam.CompanyName == CompanyEnum.Saipa)
         {
             return new Result(false, "Only Saipa vehicles can register on odd days.");
         }

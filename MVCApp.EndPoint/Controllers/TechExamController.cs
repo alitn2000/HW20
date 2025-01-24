@@ -61,7 +61,7 @@ public class TechExamController : Controller
             //ViewBag.CarId = examViewModel.carId;
             return View(examViewModel);
         }
-        ViewBag.Message ="ExamAdded Sucsessfully";
+        TempData["Message"] ="ExamAdded Sucsessfully";
         return RedirectToAction("AddExam");
     }
 }

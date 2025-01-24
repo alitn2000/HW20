@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\c#\\HW\u0060S\\HW20\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BA0821C-4C6D-4A76-9740-A4E634371369}|App.Domain.Services\\App.Domain.Services.csproj|d:\\c#\\hw\u0060s\\hw20\\app.domain.services\\turnsmanager\\techexamservices\\techexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA0821C-4C6D-4A76-9740-A4E634371369}|App.Domain.Services\\App.Domain.Services.csproj|solutionrelative:app.domain.services\\turnsmanager\\techexamservices\\techexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\controllers\\techexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\controllers\\techexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\controllers\\operatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\controllers\\operatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\validations\\datevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\validations\\datevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\models\\addexamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\models\\addexamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\views\\techexam\\addexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\views\\techexam\\addexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5CCCB2B-2400-4AB8-87D1-CD9DB8953E6C}|App.Domain.AppServices\\App.Domain.AppServices.csproj|d:\\c#\\hw\u0060s\\hw20\\app.domain.appservices\\carmodelaggrigate\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5CCCB2B-2400-4AB8-87D1-CD9DB8953E6C}|App.Domain.AppServices\\App.Domain.AppServices.csproj|solutionrelative:app.domain.appservices\\carmodelaggrigate\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\views\\operator\\addcarmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{25EDF9EB-8736-473E-97BC-FC56D071F9E4}|App.Infra.DataAccess.EF\\App.Infra.DataAccess.EF.csproj|solutionrelative:app.infra.dataaccess.ef\\carmodelaggrigate\\carmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\models\\addexamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\models\\addexamviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\models\\updatecarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\models\\updatecarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,24 +55,8 @@
       "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\views\\operator\\carmodellist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\validations\\datevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\validations\\datevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5CCCB2B-2400-4AB8-87D1-CD9DB8953E6C}|App.Domain.AppServices\\App.Domain.AppServices.csproj|d:\\c#\\hw\u0060s\\hw20\\app.domain.appservices\\carmodelaggrigate\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5CCCB2B-2400-4AB8-87D1-CD9DB8953E6C}|App.Domain.AppServices\\App.Domain.AppServices.csproj|solutionrelative:app.domain.appservices\\carmodelaggrigate\\carmodelappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\mvcapp.endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\mvcapp.endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|solutionrelative:mvcapp.endpoint\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BA0821C-4C6D-4A76-9740-A4E634371369}|App.Domain.Services\\App.Domain.Services.csproj|d:\\c#\\hw\u0060s\\hw20\\app.domain.services\\turnsmanager\\techexamservices\\techexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BA0821C-4C6D-4A76-9740-A4E634371369}|App.Domain.Services\\App.Domain.Services.csproj|solutionrelative:app.domain.services\\turnsmanager\\techexamservices\\techexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49A5C4E5-04AB-44F9-A4DC-062F54C14D7C}|MVCApp.EndPoint\\MVCApp.EndPoint.csproj|d:\\c#\\hw\u0060s\\hw20\\mvcapp.endpoint\\views\\operator\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 747,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UpdateStatus.cshtml",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\UpdateStatus.cshtml",
               "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\UpdateStatus.cshtml",
@@ -91,8 +103,7 @@
               "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-24T08:30:47.83Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -100,137 +111,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddExamViewModel.cs",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
-              "RelativeToolTip": "MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T10:51:47.781Z",
+              "DocumentIndex": 6,
+              "Title": "AddExam.cshtml",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\TechExam\\AddExam.cshtml",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\TechExam\\AddExam.cshtml",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\TechExam\\AddExam.cshtml",
+              "RelativeToolTip": "MVCApp.EndPoint\\Views\\TechExam\\AddExam.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T11:37:43.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddCarModel.cshtml",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
-              "RelativeToolTip": "MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T06:31:48.571Z",
+              "Title": "TechExamController.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\TechExamController.cs",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Controllers\\TechExamController.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\TechExamController.cs",
+              "RelativeToolTip": "MVCApp.EndPoint\\Controllers\\TechExamController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:36:55.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UpdateCarViewModel.cs",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
-              "RelativeToolTip": "MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T09:21:28.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarModelRepository.cs",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
-              "RelativeDocumentMoniker": "App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
-              "RelativeToolTip": "App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAADwv0wAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:53:38.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OperatorController.cs",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\OperatorController.cs",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Controllers\\OperatorController.cs",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\OperatorController.cs",
-              "RelativeToolTip": "MVCApp.EndPoint\\Controllers\\OperatorController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAUwJsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:21:20.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarModelList.cshtml",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
-              "RelativeToolTip": "MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T08:31:41.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DateValidation.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Validations\\DateValidation.cs",
               "RelativeDocumentMoniker": "MVCApp.EndPoint\\Validations\\DateValidation.cs",
               "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Validations\\DateValidation.cs",
               "RelativeToolTip": "MVCApp.EndPoint\\Validations\\DateValidation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T10:55:26.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CarModelAppService.cs",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
-              "RelativeDocumentMoniker": "App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
-              "RelativeToolTip": "App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAIA/wC4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:56:12.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MVCApp.EndPoint",
-              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
-              "RelativeDocumentMoniker": "MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
-              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
-              "RelativeToolTip": "MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-24T10:54:51.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "TechExamService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.Services\\TurnsManager\\TechExamServices\\TechExamService.cs",
               "RelativeDocumentMoniker": "App.Domain.Services\\TurnsManager\\TechExamServices\\TechExamService.cs",
               "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.Services\\TurnsManager\\TechExamServices\\TechExamService.cs",
               "RelativeToolTip": "App.Domain.Services\\TurnsManager\\TechExamServices\\TechExamService.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-24T10:43:59.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "AddExamViewModel.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
+              "RelativeToolTip": "MVCApp.EndPoint\\Models\\AddExamViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvygAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:51:47.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperatorController.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\OperatorController.cs",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Controllers\\OperatorController.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\OperatorController.cs",
+              "RelativeToolTip": "MVCApp.EndPoint\\Controllers\\OperatorController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAA2wJsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:21:20.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVCApp.EndPoint\\Controllers\\HomeController.cs",
@@ -243,7 +202,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCarViewModel.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
+              "RelativeToolTip": "MVCApp.EndPoint\\Models\\UpdateCarViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:21:28.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarModelAppService.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
+              "RelativeDocumentMoniker": "App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
+              "RelativeToolTip": "App.Domain.AppServices\\CarModelAggrigate\\CarModelAppService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwC4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:56:12.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarModelList.cshtml",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
+              "RelativeToolTip": "MVCApp.EndPoint\\Views\\Operator\\CarModelList.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T08:31:41.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\appsettings.json",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\appsettings.json",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\appsettings.json",
+              "RelativeToolTip": "MVCApp.EndPoint\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-24T11:29:16.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarModelRepository.cs",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
+              "RelativeDocumentMoniker": "App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
+              "RelativeToolTip": "App.Infra.DataAccess.EF\\CarModelAggrigate\\CarModelRepository.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwv0wAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T08:53:38.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddCarModel.cshtml",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
+              "RelativeToolTip": "MVCApp.EndPoint\\Views\\Operator\\AddCarModel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T06:31:48.571Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "MVCApp.EndPoint.csproj",
+              "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
+              "RelativeDocumentMoniker": "MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
+              "ToolTip": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
+              "RelativeToolTip": "MVCApp.EndPoint\\MVCApp.EndPoint.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-24T10:54:51.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Shared\\_Layout.cshtml",
@@ -251,12 +296,11 @@
               "RelativeToolTip": "MVCApp.EndPoint\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T10:12:10.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T10:12:10.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\MVCApp.EndPoint\\Views\\Operator\\Update.cshtml",
               "RelativeDocumentMoniker": "MVCApp.EndPoint\\Views\\Operator\\Update.cshtml",
@@ -264,12 +308,11 @@
               "RelativeToolTip": "MVCApp.EndPoint\\Views\\Operator\\Update.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-24T09:01:58.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T09:01:58.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ICarModelAppService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelAppService.cs",
               "RelativeDocumentMoniker": "App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelAppService.cs",
@@ -277,12 +320,11 @@
               "RelativeToolTip": "App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelAppService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:56:03.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T08:56:03.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ICarModelService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelService.cs",
               "RelativeDocumentMoniker": "App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelService.cs",
@@ -290,12 +332,11 @@
               "RelativeToolTip": "App.Domain.Core\\TurnsManager\\CarModelAggrigate\\Contracts\\ICarModelService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:55:47.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T08:55:47.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CarModelService.cs",
               "DocumentMoniker": "D:\\c#\\HW\u0060S\\HW20\\App.Domain.Services\\TurnsManager\\CarModelServices\\CarModelService.cs",
               "RelativeDocumentMoniker": "App.Domain.Services\\TurnsManager\\CarModelServices\\CarModelService.cs",
@@ -303,8 +344,7 @@
               "RelativeToolTip": "App.Domain.Services\\TurnsManager\\CarModelServices\\CarModelService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAIwFIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T08:52:52.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T08:52:52.126Z"
             }
           ]
         }
