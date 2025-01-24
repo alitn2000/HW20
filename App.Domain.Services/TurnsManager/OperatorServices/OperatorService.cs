@@ -1,5 +1,8 @@
-﻿using App.Domain.Core.TurnsManager.OperatorAggrigate.Contracts;
+﻿using App.Domain.Core.TurnsManager.CarModelAggrigate.Contracts;
+using App.Domain.Core.TurnsManager.CarModelAggrigate.Entity;
+using App.Domain.Core.TurnsManager.OperatorAggrigate.Contracts;
 using App.Domain.Core.TurnsManager.OperatorAggrigate.Entity;
+using App.Domain.Core.TurnsManager.ResultAggrigate;
 using App.Domain.Core.TurnsManager.TechExamAggrigate.Entity;
 using System;
 using System.Collections.Generic;
@@ -30,5 +33,7 @@ public class OperatorService : IOperatorService
     {
        return _operatorRepository.GetOperator(userName);
     }
+
+
 
 }

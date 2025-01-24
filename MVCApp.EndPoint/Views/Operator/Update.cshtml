@@ -1,0 +1,34 @@
+﻿@using App.Domain.Core.TurnsManager.CarModelAggrigate.Entity
+@model CarModel
+
+<div class="container mt-4 " dir="rtl">
+    <h2 class="text-center mb-4">Update User</h2>
+
+    <form method="post" asp-controller="Operator" asp-action="Update">
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="form-floating mb-3">
+            <input class="form-control" id="Name" name="Name" type="text" value="@Model.Name" required />
+            <label for="Name">نام</label>
+        </div>
+        <div class="form-control form-floating mb-3 ">
+
+            <select class="form-select" asp-for="CompanyName" aria-label="Car Model">
+                <option value="">Choose car model</option>
+                <option value="Saipa">Saipa</option>
+                <option value="IranKhodro">IranKhodro</option>
+
+            </select>
+            <label asp-for="CompanyName"></label>
+            <span class="text-danger" asp-validation-for="CompanyName"> </span>
+
+        </div>
+        <button type="submit" class="btn btn-success">Update</button>
+    </form>
+
+    @if (TempData["ResultMessage"] != null)
+    {
+        <div class="alert alert-info">@TempData["ResultMessage"]</div>
+    }
+
+</div>

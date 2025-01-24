@@ -15,3 +15,4 @@ D:\c#\HW`S\HW20\App.Infra.Data.SqlService.Ef\obj\Debug\net8.0\refint\App.Infra.D
 D:\c#\HW`S\HW20\App.Infra.Data.SqlService.Ef\obj\Debug\net8.0\App.Infra.Data.SqlService.Ef.pdb
 D:\c#\HW`S\HW20\App.Infra.Data.SqlService.Ef\obj\Debug\net8.0\App.Infra.Data.SqlService.Ef.genruntimeconfig.cache
 D:\c#\HW`S\HW20\App.Infra.Data.SqlService.Ef\obj\Debug\net8.0\ref\App.Infra.Data.SqlService.Ef.dll
+D:\c#\HW`S\HW20\App.Infra.Data.SqlService.Ef\obj\Debug\net8.0\App.Infra.Data.SqlService.Ef.sourcelink.json

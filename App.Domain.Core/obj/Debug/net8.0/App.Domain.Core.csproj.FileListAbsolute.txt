@@ -9,3 +9,4 @@ D:\c#\HW`S\HW20\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.dll
 D:\c#\HW`S\HW20\App.Domain.Core\obj\Debug\net8.0\refint\App.Domain.Core.dll
 D:\c#\HW`S\HW20\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.pdb
 D:\c#\HW`S\HW20\App.Domain.Core\obj\Debug\net8.0\ref\App.Domain.Core.dll
+D:\c#\HW`S\HW20\App.Domain.Core\obj\Debug\net8.0\App.Domain.Core.sourcelink.json

@@ -39,7 +39,6 @@ public class TechExamService : ITechExamService
 
         var AgeCheck = DateTime.Now.Year - exam.CarAge.Year;
 
-        // بررسی سن خودرو
         if (AgeCheck > MaxAge)
         {
             RejectedRequest rejectedRequest = new RejectedRequest()

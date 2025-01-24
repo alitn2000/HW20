@@ -1,74 +1,80 @@
 ﻿@using App.Domain.Core.TurnsManager.CarModelAggrigate.Entity
-@model List<CarModel>
+@model AddExamViewModel
+
 <div class="container px-5 my-5">
 	<form method="post" asp-action="AddExam" id="contactForm" data-sb-form-api-token="API_TOKEN">
 		<div class="form-floating mb-3">
-			<input class="form-control" id="nationalId" name="nationalId" type="text" placeholder="National Id"
-				   value="@ViewBag.NationalId" data-sb-validations="required" />
-			<label for="nationalId">National Id</label>
-			<div class="invalid-feedback" data-sb-feedback="nationalId:required">National Id is required.</div>
+			<input class="form-control" asp-for="nationalId" @* value="@ViewBag.NationalId" *@  />
+			<label asp-for="nationalId" asp-for="nationalId"></label>
+			<span class="text-danger" asp-validation-for="nationalId"> </span>
 		</div>
 
 		<div class="form-floating mb-3">
-			<input class="form-control" id="phoneNumber" name="phoneNumber" type="text" placeholder="Phone Number"
-				   value="@ViewBag.PhoneNumber" data-sb-validations="required" />
-			<label for="phoneNumber">Phone Number</label>
-			<div class="invalid-feedback" data-sb-feedback="phoneNumber:required">Phone Number is required.</div>
+			<input class="form-control" asp-for="phoneNumber" @* value="@ViewBag.PhoneNumber" *@  />
+			<label asp-for="phoneNumber">Phone Number</label>
+			<span class="text-danger" asp-validation-for="phoneNumber"> </span>
 		</div>
 
 		<div class="form-floating mb-3">
-			<input class="form-control" id="Adress" type="text" name="Adress" placeholder="Adress"
-				   value="@ViewBag.Address" data-sb-validations="required" />
-			<label for="Adress">Address</label>
-			<div class="invalid-feedback" data-sb-feedback="adress:required">Address is required.</div>
+			<input class="form-control" asp-for="Adress"@*  value="@ViewBag.Address" *@ />
+			<label for="Adress" asp-for="Adress"></label>
+			<span class="text-danger" asp-validation-for="Adress"> </span>
 		</div>
 
 		<div class="form-floating mb-3">
-			<input class="form-control" id="plateNumber" type="text" name="plateNumber" placeholder="plateNumber"
-				   value="@ViewBag.PlateNumber" data-sb-validations="required" />
-			<label for="plateNumber">Plate Number</label>
-			<div class="invalid-feedback" data-sb-feedback="adress:required">Plate Number is required.</div>
+			<input class="form-control" asp-for="plateNumber" @* value="@ViewBag.PlateNumber" *@ />
+			<label asp-for="plateNumber">Plate Number</label>
+			<span class="text-danger" asp-validation-for="plateNumber"> </span>
 		</div>
 
 		<div class="form-floating mb-3">
-			<input class="form-control" id="CarAge" name="carAge" type="date" placeholder="Car Age"
-				   value="@ViewBag.CarAge" data-sb-validations="required" />
-			<label for="CarAge">Car Age</label>
-			<div class="invalid-feedback" data-sb-feedback="techExamDate:required">TechExam Date is required.</div>
+			<input class="form-control" asp-for="carAge" @* value="@ViewBag.CarAge" *@/>
+			<label asp-for="carAge"></label>
+			<span class="text-danger" asp-validation-for="carAge"> </span>
 		</div>
 
 		<div class="form-floating mb-3">
-			<input class="form-control" id="examDate" name="examDate" type="date" placeholder="examDate"
-				   value="@ViewBag.ExamDate" data-sb-validations="required" />
-			<label for="examDate">Exam Date</label>
-			<div class="invalid-feedback" data-sb-feedback="techExamDate:required">TechExam Date is required.</div>
+			<input class="form-control" asp-for="examDate" @* value="@ViewBag.ExamDate" *@  />
+			<label asp-for="examDate">Exam Date</label>
+			<span class="text-danger" asp-validation-for="examDate"> </span>
 		</div>
 
-		<div class="form-floating mb-3">
-			<select class="form-select" id="carModel" name="carId" aria-label="Car Model">
-					@foreach (var car in Model)
+		<div class="form-control form-floating mb-3 ">
+			
+			<select class="form-select" asp-for="carId" aria-label="Car Model">
+				<option value="">Choose car model</option>
+					@foreach (var car in (List<CarModel>)TempData["Cars"])
 					{
-						if (car.Id == (int?)ViewBag.CarId)
+@* 						if (car.Id == (int?)ViewBag.CarId)
 						{
 							<option value="@car.Id" selected>@car.Name</option>
 						}
 						else
 						{
 							<option value="@car.Id">@car.Name</option>
-						}
+						} *@
+						<option value="@car.Id">@car.Name</option>
 					}
 			</select>
+			<label asp-for="carId"></label>
+			<span class="text-danger" asp-validation-for="carId"> </span>
 			
-			<label for="carModel">Car Model</label>
 		</div>
 
 		<div class="d-grid">
 			<button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
 		</div>
 	</form>
-	@if (ViewBag.Message is not null)
+@* 	@if (ViewBag.Message is not null)
 	{
 		<div class="alert alert-danger">@ViewBag.Message</div>
-	}
+	} *@
 </div>
+
+@section Scripts
+{
+	<partial name="_validationScriptsPartial" />
+}
+
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+

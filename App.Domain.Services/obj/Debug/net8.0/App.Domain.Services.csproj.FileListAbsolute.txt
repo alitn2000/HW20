@@ -17,3 +17,4 @@ D:\c#\HW`S\HW20\App.Domain.Services\obj\Debug\net8.0\App.Domain.Services.dll
 D:\c#\HW`S\HW20\App.Domain.Services\obj\Debug\net8.0\refint\App.Domain.Services.dll
 D:\c#\HW`S\HW20\App.Domain.Services\obj\Debug\net8.0\App.Domain.Services.pdb
 D:\c#\HW`S\HW20\App.Domain.Services\obj\Debug\net8.0\ref\App.Domain.Services.dll
+D:\c#\HW`S\HW20\App.Domain.Services\obj\Debug\net8.0\App.Domain.Services.sourcelink.json

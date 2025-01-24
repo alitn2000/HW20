@@ -1,4 +1,6 @@
-﻿using App.Domain.Core.TurnsManager.OperatorAggrigate.Contracts;
+﻿using App.Domain.Core.TurnsManager.CarModelAggrigate.Contracts;
+using App.Domain.Core.TurnsManager.CarModelAggrigate.Entity;
+using App.Domain.Core.TurnsManager.OperatorAggrigate.Contracts;
 using App.Domain.Core.TurnsManager.OperatorAggrigate.Entity;
 using App.Domain.Core.TurnsManager.TechExamAggrigate.Contracts;
 using App.Domain.Core.TurnsManager.TechExamAggrigate.Entity;
@@ -12,10 +14,15 @@ public class OperatorController : Controller
 {
     private readonly IOperatorAppService _operatorAppService;
     private readonly ITechExamAppService _techExamAppService;
-    public OperatorController(IOperatorAppService operatorAppService, ITechExamAppService techExamAppService)
+    private readonly ICarModelAppService _carModelAppService;
+    public OperatorController(
+        IOperatorAppService operatorAppService,
+        ITechExamAppService techExamAppService,
+        ICarModelAppService carModelAppService)
     {
         _operatorAppService = operatorAppService;
         _techExamAppService = techExamAppService;
+        _carModelAppService = carModelAppService;
     }
     [HttpGet]
     public IActionResult Login()
@@ -91,5 +98,84 @@ public class OperatorController : Controller
         ViewBag.Change = "Status Changed";
         return RedirectToAction("UpdateStatus");
     }
-    
+
+    public IActionResult CarModelList()
+    {
+        if (OnlineOperator.Online == null)
+        {
+
+            return RedirectToAction("Login", "Operator");
+        }
+        var Cars = _carModelAppService.GetAllCarModels();
+        return View(Cars);
+    }
+
+    [HttpGet]
+    public IActionResult AddCarModel()
+    {
+        if (OnlineOperator.Online == null)
+        {
+
+            return RedirectToAction("Login", "Operator");
+        }
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult AddCarModel(AddCarModelViewModel carModelView)
+    {
+
+        if (!ModelState.IsValid)
+        {
+            return View(carModelView);
+        }
+        if (_carModelAppService.CheckCarExist(carModelView.Name))
+        {
+            TempData["addCarError"] = "Car is already exist";
+            return View(carModelView);
+        }
+        else
+        {
+            CarModel carModel = new CarModel()
+            {
+                CompanyName = carModelView.CompanyName,
+                Name = carModelView.Name
+            };
+            TempData["Message"] = "Car model added Sucsessfully";
+            _carModelAppService.AddCarModel(carModel);
+            return RedirectToAction("AddCarModel");
+        }
+
+       
+    }
+
+    public IActionResult Delete(int id)
+    {
+       var result = _carModelAppService.DeleteCarModel(id);
+        TempData["DeleteMessage"] = result.Message;
+        return RedirectToAction("CarModelList");
+        
+    }
+
+    [HttpGet]
+    public IActionResult Update(int id)
+    {
+        var car = _carModelAppService.GetCarById(id);
+        if (car == null)
+        {
+            TempData["UpdateMessage"] = "Car not found.";
+            return RedirectToAction("CarModelList");
+        }
+
+        return View(car);
+    }
+
+    [HttpPost]
+    public IActionResult Update(CarModel carModel)
+    {
+        var result =_carModelAppService.UpdateCarModel(carModel);
+
+        TempData["ResultMessage"] = result.Message;
+        return RedirectToAction("Update", new { id = carModel.Id });
+    }
 }

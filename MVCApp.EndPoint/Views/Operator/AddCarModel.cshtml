@@ -1,0 +1,45 @@
+﻿
+@model AddCarModelViewModel
+
+<div class="container px-5 my-5">
+	<form method="post" asp-action="AddCarModel" id="contactForm" data-sb-form-api-token="API_TOKEN">
+
+		<div class="form-floating mb-3">
+			<input class="form-control" asp-for="Name" />
+			<label asp-for="Name" asp-for="nationalId"></label>
+			<span class="text-danger" asp-validation-for="Name"></span>
+		</div>
+
+		<div class="form-control form-floating mb-3 ">
+
+			<select class="form-select" asp-for="CompanyName" aria-label="Car Model">
+				<option value="">Choose car model</option>
+				<option value="Saipa">Saipa</option>
+				<option value="IranKhodro">IranKhodro</option>
+
+			</select>
+			<label asp-for="CompanyName"></label>
+			<span class="text-danger" asp-validation-for="CompanyName"> </span>
+
+		</div>
+
+		<div class="d-grid">
+			<button class="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
+		</div>
+	</form>
+</div>
+@if (TempData["addCarError"] is not null)
+{
+	<div class="alert alert-info">@TempData["addCarError"]</div>
+}
+@if (TempData["Message"] is not null)
+{
+	<div class="alert alert-info">@TempData["Message"]</div>
+}
+@section Scripts
+{
+	<partial name="_validationScriptsPartial" />
+}
+
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+

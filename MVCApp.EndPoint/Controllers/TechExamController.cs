@@ -6,6 +6,7 @@ using App.Domain.Core.TurnsManager.TechExamAggrigate.Contracts;
 using App.Domain.Core.TurnsManager.TechExamAggrigate.Entity;
 using App.Domain.Core.TurnsManager.TechExamAggrigate.Enums;
 using Microsoft.AspNetCore.Mvc;
+using MVCApp.EndPoint.Models;
 
 namespace MVCApp.EndPoint.Controllers;
 
@@ -22,44 +23,43 @@ public class TechExamController : Controller
     public IActionResult AddExam()
     {
        var Cars =  _carModelAppService.GetAllCarModels();
-
-        return View(Cars);
+        TempData["Cars"] = Cars;
+        return View();
     }
 
     [HttpPost]
-    public IActionResult AddExam(string nationalId, string phoneNumber, string Adress,string plateNumber, DateTime carAge,DateTime examDate, int carId )
+    public IActionResult AddExam(AddExamViewModel examViewModel )
     {
-        var CarModel = _carModelAppService.GetCompany(carId);
+        var CarModel = _carModelAppService.GetCompany(examViewModel.carId);
         string? companyName =CarModel.CompanyName;
         string carName = CarModel.Name;
         var companyNameEnum = (CompanyEnum)Enum.Parse(typeof(CompanyEnum), companyName, true);
 
         TechExam exam = new TechExam()
         {
-            NationalId = nationalId,
-            PhoneNumber = phoneNumber,
-            Address = Adress,
-            PlateNumber = plateNumber,
-            CarAge = carAge,
-            TechExamDate = examDate,
+            NationalId = examViewModel.nationalId,
+            PhoneNumber = examViewModel.phoneNumber,
+            Address = examViewModel.Adress,
+            PlateNumber = examViewModel.plateNumber,
+            CarAge = examViewModel.carAge,
+            TechExamDate = examViewModel.examDate,
             CompanyName = companyNameEnum,
             CarName = carName, 
         };
 
          Result result = _techExamAppService.AddTechExam(exam);
 
-        if(result.Flag == false)
+        if(!ModelState.IsValid)
         {
-            ViewBag.Message = result.Message;
-            ViewBag.NationalId = nationalId;
-            ViewBag.PhoneNumber = phoneNumber;
-            ViewBag.Address = Adress;
-            ViewBag.PlateNumber = plateNumber;
-            ViewBag.CarAge = carAge.ToString("yyyy-MM-dd");
-            ViewBag.ExamDate = examDate.ToString("yyyy-MM-dd");
-            ViewBag.CarId = carId;
-            var Cars = _carModelAppService.GetAllCarModels();
-            return View(Cars);
+            //ViewBag.Message = result.Message;
+            //ViewBag.NationalId = examViewModel.nationalId;
+            //ViewBag.PhoneNumber = examViewModel.phoneNumber;
+            //ViewBag.Address = examViewModel.Adress;
+            //ViewBag.PlateNumber = examViewModel.plateNumber;
+            //ViewBag.CarAge = examViewModel.carAge.ToString("yyyy-MM-dd");
+            //ViewBag.ExamDate = examViewModel.examDate.ToString("yyyy-MM-dd");
+            //ViewBag.CarId = examViewModel.carId;
+            return View(examViewModel);
         }
         ViewBag.Message ="ExamAdded Sucsessfully";
         return RedirectToAction("AddExam");

@@ -19,3 +19,4 @@ D:\c#\HW`S\HW20\App.Domain.AppServices\obj\Debug\net8.0\App.Domain.AppServices.d
 D:\c#\HW`S\HW20\App.Domain.AppServices\obj\Debug\net8.0\refint\App.Domain.AppServices.dll
 D:\c#\HW`S\HW20\App.Domain.AppServices\obj\Debug\net8.0\App.Domain.AppServices.pdb
 D:\c#\HW`S\HW20\App.Domain.AppServices\obj\Debug\net8.0\ref\App.Domain.AppServices.dll
+D:\c#\HW`S\HW20\App.Domain.AppServices\obj\Debug\net8.0\App.Domain.AppServices.sourcelink.json
